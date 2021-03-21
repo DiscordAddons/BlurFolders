@@ -1,6 +1,6 @@
 # BlurFolders
 ```css
-/* Blurs all closed folders and unblurs on hover. */
+/* Adds a blur effect to closed folders and unblurs when you hover your mouse over them. */
 .closedFolderIconWrapper-15K9MK {
     filter: blur(5px);
 }
