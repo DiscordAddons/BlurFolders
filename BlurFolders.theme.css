@@ -1,18 +1,8 @@
-/**
- * @name BlurFolders
- * @author ryugenn#3571
- * @version 1.0
- * @description Adds a blur effect to closed folders and unblurs when you hover your mouse over them.
- * @invite wu8XyU4W9H
- * @source https://github.com/DiscordAddons/BlurFolders/edit/main/BlurFolders.css
- * @website https://github.com/ryugenn
- * @authorId 556120718669119499
-*/
-
 .closedFolderIconWrapper-15K9MK {
     filter: blur(5px);
+    transition: filter .35s ease;
 }
+
 .closedFolderIconWrapper-15K9MK:hover {
-    filter: blur(0);
-    transition: filter .5s ease-out;
+    filter: none;
 }
