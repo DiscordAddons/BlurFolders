@@ -4,10 +4,10 @@ Blurs folders (specifically closed ones) and unblurs on hover.
 ```css
 .closedFolderIconWrapper-15K9MK {
     filter: blur(5px);
+    transition: filter .35s ease;
 }
 
 .closedFolderIconWrapper-15K9MK:hover {
-    filter: blur(0);
-    transition: filter .25s ease-out;
+    filter: none;
 }
 ```
